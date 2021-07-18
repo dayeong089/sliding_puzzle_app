@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".three">
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/sky"
+        android:layout_width="170dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sky" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:text="3X3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="80dp"
+        android:text="4X4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/shuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="12dp"
+        android:text="SHUFFLE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/grid"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="68dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rowCount="3">
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/border"
+            app:srcCompat="@drawable/ic_launcher_background"/>
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/border"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageButton
+            android:id="@+id/img9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/border"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ImageView
+        android:id="@+id/sky1"
+        android:layout_width="13dp"
+        android:layout_height="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sky1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
